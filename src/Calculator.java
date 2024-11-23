@@ -5,7 +5,7 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите первый операнд:");
         double operand1 = scanner.nextDouble(); // Переменная для сохранения первого операнда. Double вместо Int для поддержки дробных операндов
-        System.out.println("Введите одну из поддерживаемых операций (+, -, *, /)");
+        System.out.println("Введите одну из поддерживаемых операций (+, -, *, /, ^)");
         char operation = scanner.next().charAt(0); // Переменная для сохранения операции
         System.out.println("Введите второй операнд:");
         double operand2 = scanner.nextDouble(); // Переменная для сохранения второго операнда
